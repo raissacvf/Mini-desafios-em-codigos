@@ -6,7 +6,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
-        System.out.println("Em que turno você estuda?  Digite M-matutino, V-Vespertino ou N-Noturno.");
+        System.out.println("Em que turno você estuda?");
+            System.out.println("Digite M para Matutino");
+          System.out.println("Digite V para Vespertino");
+               System.out.println("Digite N para Noturno");
+        
         char turno = leitor.next().toUpperCase().charAt(0);
 
         switch (turno) {
